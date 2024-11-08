@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{181CC931-C698-4435-A217-95FADB067625}|SSAS_DTWH.dwproj|D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Destination Dim.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{181CC931-C698-4435-A217-95FADB067625}|SSAS_DTWH.dwproj|solutionrelative:Destination Dim.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181CC931-C698-4435-A217-95FADB067625}|SSAS_DTWH.dwproj|D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Flight Dim.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{181CC931-C698-4435-A217-95FADB067625}|SSAS_DTWH.dwproj|solutionrelative:Flight Dim.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181CC931-C698-4435-A217-95FADB067625}|SSAS_DTWH.dwproj|D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Farelow Dim.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{181CC931-C698-4435-A217-95FADB067625}|SSAS_DTWH.dwproj|solutionrelative:Farelow Dim.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181CC931-C698-4435-A217-95FADB067625}|SSAS_DTWH.dwproj|D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\SSIS DATAWAREHOUSE.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{181CC931-C698-4435-A217-95FADB067625}|SSAS_DTWH.dwproj|solutionrelative:SSIS DATAWAREHOUSE.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181CC931-C698-4435-A217-95FADB067625}|SSAS_DTWH.dwproj|D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Route_Fact.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{181CC931-C698-4435-A217-95FADB067625}|SSAS_DTWH.dwproj|solutionrelative:Route_Fact.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181CC931-C698-4435-A217-95FADB067625}|SSAS_DTWH.dwproj|D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Fare_Fact.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{181CC931-C698-4435-A217-95FADB067625}|SSAS_DTWH.dwproj|solutionrelative:Fare_Fact.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181CC931-C698-4435-A217-95FADB067625}|SSAS_DTWH.dwproj|D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Date Dim.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{181CC931-C698-4435-A217-95FADB067625}|SSAS_DTWH.dwproj|solutionrelative:Date Dim.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181CC931-C698-4435-A217-95FADB067625}|SSAS_DTWH.dwproj|D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Time Dim.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{181CC931-C698-4435-A217-95FADB067625}|SSAS_DTWH.dwproj|solutionrelative:Time Dim.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181CC931-C698-4435-A217-95FADB067625}|SSAS_DTWH.dwproj|D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Airline Dim.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{181CC931-C698-4435-A217-95FADB067625}|SSAS_DTWH.dwproj|solutionrelative:Airline Dim.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181CC931-C698-4435-A217-95FADB067625}|SSAS_DTWH.dwproj|D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Route Fact.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{181CC931-C698-4435-A217-95FADB067625}|SSAS_DTWH.dwproj|solutionrelative:Route Fact.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181CC931-C698-4435-A217-95FADB067625}|SSAS_DTWH.dwproj|D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Actual Dim.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{181CC931-C698-4435-A217-95FADB067625}|SSAS_DTWH.dwproj|solutionrelative:Actual Dim.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Destination Dim.dim [Design]",
+              "DocumentMoniker": "D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Destination Dim.dim",
+              "RelativeDocumentMoniker": "Destination Dim.dim",
+              "ToolTip": "D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Destination Dim.dim [Design]",
+              "RelativeToolTip": "Destination Dim.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-08T07:57:16.048Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Flight Dim.dim [Design]",
+              "DocumentMoniker": "D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Flight Dim.dim",
+              "RelativeDocumentMoniker": "Flight Dim.dim",
+              "ToolTip": "D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Flight Dim.dim [Design]",
+              "RelativeToolTip": "Flight Dim.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-08T07:57:15.136Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Farelow Dim.dim [Design]",
+              "DocumentMoniker": "D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Farelow Dim.dim",
+              "RelativeDocumentMoniker": "Farelow Dim.dim",
+              "ToolTip": "D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Farelow Dim.dim [Design]",
+              "RelativeToolTip": "Farelow Dim.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-08T07:57:14.121Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Fare_Fact.cube [Design]",
+              "DocumentMoniker": "D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Fare_Fact.cube",
+              "RelativeDocumentMoniker": "Fare_Fact.cube",
+              "ToolTip": "D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Fare_Fact.cube [Design]",
+              "RelativeToolTip": "Fare_Fact.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-07T17:35:39.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SSIS DATAWAREHOUSE.dsv [Design]",
+              "DocumentMoniker": "D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\SSIS DATAWAREHOUSE.dsv",
+              "RelativeDocumentMoniker": "SSIS DATAWAREHOUSE.dsv",
+              "ToolTip": "D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\SSIS DATAWAREHOUSE.dsv [Design]*",
+              "RelativeToolTip": "SSIS DATAWAREHOUSE.dsv [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-07T17:31:24.677Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Date Dim.dim [Design]",
+              "DocumentMoniker": "D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Date Dim.dim",
+              "RelativeDocumentMoniker": "Date Dim.dim",
+              "ToolTip": "D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Date Dim.dim [Design]",
+              "RelativeToolTip": "Date Dim.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-07T01:34:07.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Time Dim.dim [Design]",
+              "DocumentMoniker": "D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Time Dim.dim",
+              "RelativeDocumentMoniker": "Time Dim.dim",
+              "ToolTip": "D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Time Dim.dim [Design]",
+              "RelativeToolTip": "Time Dim.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-07T01:34:05.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Route_Fact.cube [Design]",
+              "DocumentMoniker": "D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Route_Fact.cube",
+              "RelativeDocumentMoniker": "Route_Fact.cube",
+              "ToolTip": "D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Route_Fact.cube [Design]",
+              "RelativeToolTip": "Route_Fact.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-07T01:33:34.002Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Airline Dim.dim [Design]",
+              "DocumentMoniker": "D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Airline Dim.dim",
+              "RelativeDocumentMoniker": "Airline Dim.dim",
+              "ToolTip": "D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Airline Dim.dim [Design]",
+              "RelativeToolTip": "Airline Dim.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-07T03:30:14.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Actual Dim.dim [Design]",
+              "DocumentMoniker": "D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Actual Dim.dim",
+              "RelativeDocumentMoniker": "Actual Dim.dim",
+              "ToolTip": "D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Actual Dim.dim [Design]",
+              "RelativeToolTip": "Actual Dim.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-07T01:49:27.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Route Fact.dim [Design]",
+              "DocumentMoniker": "D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Route Fact.dim",
+              "RelativeDocumentMoniker": "Route Fact.dim",
+              "ToolTip": "D:\\WordSpace\\Data WareHouse\\SSAS_DTWH\\Route Fact.dim [Design]",
+              "RelativeToolTip": "Route Fact.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-07T01:34:04.262Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

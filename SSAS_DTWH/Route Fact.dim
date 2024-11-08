@@ -1,0 +1,331 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="00bc5815-110c-4c1e-a00d-e84b3a021aba" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Route Fact</ID>
+  <Name>Route Fact</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1895" scrolltop="-5025" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7705" y="15050" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Route_fact" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3874" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000220f000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Route_fact" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1895</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5025</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3c744ba4-23e0-43d9-b46c-90f8ae603001">
+    <DataSourceViewID>SSIS DATAWAREHOUSE</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="917aced8-cefc-4dc5-a0ce-5b4e283592c9">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="8f43c79f-4259-47d2-affd-981fcd7962c3">
+      <ID>Route Key</ID>
+      <Name>Route Key</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fe29d328-6d30-46d3-949a-7da322bc4172">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7d05c9a7-d3bb-417a-a14c-38e0cd9195fc">
+            <TableID>dbo_Route_fact</TableID>
+            <ColumnID>route_key</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="67a5ce9d-6545-49ae-bb7f-e74e8cdfca7b">
+          <AttributeID>Distance</AttributeID>
+          <Name>Distance</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ab1bc548-105b-43ee-930d-d17cef56f669">
+          <AttributeID>Cancellation Reason</AttributeID>
+          <Name>Cancellation Reason</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="dc558f0a-6cd2-47cc-b0a2-ae559900499d">
+          <AttributeID>Cancelled</AttributeID>
+          <Name>Cancelled</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4c90d962-aced-4c1c-b759-f5937ff1645a">
+          <AttributeID>Diverted</AttributeID>
+          <Name>Diverted</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="28914349-c49f-40f2-a4c5-3cc0a9034529">
+          <AttributeID>Delay Arrival</AttributeID>
+          <Name>Delay Arrival</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9f2f7cb8-eb21-4d61-96c3-6c0ea48921a1">
+          <AttributeID>Delay Departure</AttributeID>
+          <Name>Delay Departure</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9af8962d-438a-44df-b238-1fdea56580cc">
+          <AttributeID>Total Delay</AttributeID>
+          <Name>Total Delay</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="15bb4edc-3a88-4ff5-bfe1-8bd5d8d3d51b">
+          <AttributeID>Flight Id</AttributeID>
+          <Name>Flight Id</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e9bb0341-1edb-4a26-af5c-3c18266cbef8">
+          <AttributeID>Origin Geocoded City</AttributeID>
+          <Name>Origin Geocoded City</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="addfcfed-1cf3-4975-820d-212a2c4433f2">
+          <AttributeID>Schedule Date</AttributeID>
+          <Name>Schedule Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e854f2b0-b30b-4db4-9095-d33bb67a1802">
+          <AttributeID>Des Geocoded City</AttributeID>
+          <Name>Des Geocoded City</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="dd931854-351b-49ce-87d5-3b5b4c9c3c73">
+      <ID>Distance</ID>
+      <Name>Distance</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d8cdec78-2648-448f-8c81-33dcdf17e1dd">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e597960a-93ad-49c3-9ccc-525c509d4d64">
+            <TableID>dbo_Route_fact</TableID>
+            <ColumnID>distance</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="aab0476f-31df-4ed5-99ec-dea9ab73b0ad">
+      <ID>Cancellation Reason</ID>
+      <Name>Cancellation Reason</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ebc6e3d4-22e8-47b3-976c-1065697b33b0">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a8d224d5-0090-479d-90c1-8327e7993b4f">
+            <TableID>dbo_Route_fact</TableID>
+            <ColumnID>cancellationReason</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4237793c-6ffb-4703-bcd3-7860ff4f9ae3">
+      <ID>Cancelled</ID>
+      <Name>Cancelled</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6ec05ec6-c239-4b7d-9cb7-384a5e0a61d5">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="03e4d8e4-384b-4d8a-930c-350f5706606b">
+            <TableID>dbo_Route_fact</TableID>
+            <ColumnID>cancelled</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c0eb9ae9-8631-4e79-ba05-5d6f211ddcdd">
+      <ID>Diverted</ID>
+      <Name>Diverted</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="64a6b08d-f346-4924-87a1-d5c7bfc5b87c">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b3b68f9a-836e-4de4-b549-04b35d9d1e76">
+            <TableID>dbo_Route_fact</TableID>
+            <ColumnID>diverted</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f3c4e83d-40ca-493c-9720-7417d3bb0ce0">
+      <ID>Delay Arrival</ID>
+      <Name>Delay Arrival</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0f442652-2bf5-472d-bdf1-669307ba113a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="77aa5dd6-b4c1-4deb-90d1-025e175a63a2">
+            <TableID>dbo_Route_fact</TableID>
+            <ColumnID>delayArrival</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2790613d-a7f8-4ac9-878f-37af9f04695b">
+      <ID>Delay Departure</ID>
+      <Name>Delay Departure</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ef5141e9-36c4-45b5-85cb-83a8b6cfab0c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d2abbd3f-5498-4942-8df3-ea624f742c91">
+            <TableID>dbo_Route_fact</TableID>
+            <ColumnID>delayDeparture</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3951b2b0-d805-4b7f-8852-b308f823c7c0">
+      <ID>Total Delay</ID>
+      <Name>Total Delay</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="446cbc9a-5aea-418b-82f0-9eb7a113362c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5b2a438c-77e0-4a61-b572-d4479310e092">
+            <TableID>dbo_Route_fact</TableID>
+            <ColumnID>total_delay</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="72623a47-9772-45da-a67b-6e3d4b0c680f">
+      <ID>Flight Id</ID>
+      <Name>Flight Id</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="81296b3c-7741-4ee4-89db-07543e4051aa">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="49cfc50b-9fe5-4c74-92ac-870052f7ca7d">
+            <TableID>dbo_Route_fact</TableID>
+            <ColumnID>flight_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d8c63158-7c69-47e7-b45b-54152d3d1a7d">
+      <ID>Origin Geocoded City</ID>
+      <Name>Origin Geocoded City</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f686397e-e830-45cc-b8b3-dd1162828644">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c4f6ff03-676c-4ab9-bbe1-59c6e626552c">
+            <TableID>dbo_Route_fact</TableID>
+            <ColumnID>originGeocoded_City</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a44b7f83-8b2f-446f-af74-49ae191508c8">
+      <ID>Schedule Date</ID>
+      <Name>Schedule Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0072801b-eb57-4735-bfd0-ff9d687a121a">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="645a93f0-43b0-44b6-a51c-cf1de07b6603">
+            <TableID>dbo_Route_fact</TableID>
+            <ColumnID>schedule_date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7e4d5adc-58b8-44e7-b8a1-a21e3e6c0f79">
+      <ID>Des Geocoded City</ID>
+      <Name>Des Geocoded City</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3ef32daf-8a52-4856-a2fa-8040e4202a6b">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cd198e53-29b8-4c4f-ad0e-9e2bbbd4ef4f">
+            <TableID>dbo_Route_fact</TableID>
+            <ColumnID>desGeocoded_City</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
