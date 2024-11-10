@@ -14,3 +14,7 @@ Bạn có thể tham khảo hình ảnh trên để xem qua cấu trúc và nộ
 
 ## Model Schema Star
 ![Screenshot 2024-11-07 233633](https://github.com/user-attachments/assets/e4085d32-5190-4967-a636-a16215448107)
+
+
+## Chân thành cảm ơn các bạn chung team đã góp sức tạo nên project này!
+Đàm Phương Nam, Nguyễn Thúy Hằng, Cao Thị Thu Huyền, Bùi Quốc Văn
