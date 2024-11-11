@@ -4,6 +4,7 @@
 ## Link Tải Dữ Liệu
 
 Bạn có thể tải dữ liệu từ Google Drive bằng cách nhấp vào liên kết bên dưới:
+- 1 Triệu Record và 33 cột
 
 - [Google Drive - Link Tải Dữ Liệu](https://drive.google.com/drive/folders/1NoJJooV9QwAs69Vql5CkZ82RaGb2KuEr?usp=sharing)
 
