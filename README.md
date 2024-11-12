@@ -18,4 +18,4 @@ Bạn có thể tham khảo hình ảnh trên để xem qua cấu trúc và nộ
 
 
 ## Chân thành cảm ơn các bạn chung team đã góp sức tạo nên dự án môn học này!
-Đàm Phương Nam, Nguyễn Thúy Hằng, Cao Thị Thu Huyền ❤️, Bùi Quốc Văn
+Đàm Phương Nam, Nguyễn Thúy Hằng, Cao Thị Thu Huyền, Bùi Quốc Văn
